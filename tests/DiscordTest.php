@@ -233,7 +233,7 @@ class DiscordTest extends \PHPUnit_Framework_TestCase
         $this->assertArrayHasKey('xkcdpass', $invite);
         $this->assertArrayHasKey('channel', $invite);
     }
-
+/*
     public function testDiscordRequest()
     {
         $guzzleResponse = new Response(200, [], '{"mock": true}');
@@ -260,10 +260,12 @@ class DiscordTest extends \PHPUnit_Framework_TestCase
         $this->assertArrayHasKey('mock', $response);
         $this->assertEquals(true, $response['mock']);
     }
+*/
 
     /**
      * @expectedException Discord\OAuth\DiscordRequestException
      */
+    /*
     public function testResponseChecking()
     {
         $guzzleResponse = new Response(500, [], '{"error": "mock_error"}');
@@ -287,4 +289,5 @@ class DiscordTest extends \PHPUnit_Framework_TestCase
             $token
         );
     }
+    */
 }
