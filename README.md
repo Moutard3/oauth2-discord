@@ -8,7 +8,7 @@ Based on https://github.com/teamreflex/oauth2-discord
 
 ## Installation
 
-Run `composer require Moutard3/oauth2-discord`.
+Run `composer require moutard3/oauth2-discord`.
 
 ## Usage
 
