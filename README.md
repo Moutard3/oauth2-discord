@@ -3,6 +3,7 @@ oauth2-discord
 [![Build Status](https://travis-ci.org/Moutard3/oauth2-discord.svg?branch=master)](https://travis-ci.org/Moutard3/oauth2-discord) [![Coverage Status](https://coveralls.io/repos/github/Moutard3/oauth2-discord/badge.svg?branch=master)](https://coveralls.io/github/Moutard3/oauth2-discord?branch=master)
 
 Provides Discord OAuth 2.0 support for PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
+
 Based on https://github.com/teamreflex/oauth2-discord
 
 ## Installation
